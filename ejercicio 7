@@ -1,0 +1,21 @@
+nota = float(input("Escribe una nota (0-10): "))
+
+if nota < 0 or nota > 10:
+    print("Nota no válida")
+
+elif nota < 5:
+    print("Insuficiente")
+
+elif nota < 6:
+    print("Suficiente")
+
+elif nota < 7:
+    print("Bien")
+
+elif nota < 9:
+    print("Notable")
+
+else:   # 9 <= nota <= 10
+    print("Sobresaliente")
+
+print("Fin del programa")
